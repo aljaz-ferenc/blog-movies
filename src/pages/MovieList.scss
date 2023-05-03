@@ -1,0 +1,29 @@
+.movie-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    .movie-card{
+        border: 1px solid rgb(203, 203, 203);
+        border-radius: 5px;
+        max-width: 13rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 1rem;
+        padding:.3rem;
+        background-color: #f8f8f8;
+        &__category{
+            margin-top: auto;
+        }
+        .rating{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            &__bar{
+                height: 5px;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,38 @@
+.filter__container {
+  h2 {
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  .filter {
+    display: flex;
+    gap: 3rem;
+    color: #fff;
+    &__by-categories {
+      display: flex;
+      flex-direction: column;
+      width: 10rem;
+      button{
+        font-size: 1rem;
+        padding: .3rem 0;
+        cursor: pointer;
+      }
+      h3{
+        margin-bottom: .5rem;
+      }
+      a {
+        background-color: gray;
+        color: #fff;
+        text-decoration: none;
+        padding: 0.5rem;
+        &:hover{
+          background-color: #fff;
+          color: rgb(49, 51, 67);
+        }
+        .active{
+            background-color: #fff;
+            color: rgb(49, 51, 67);
+        }
+      }
+    }
+  }
+}
